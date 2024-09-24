@@ -1,0 +1,58 @@
+.accordians{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.accordians button{
+    padding: 10px 20px;
+    background-color: #c2850b;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    transition: transform 0.1s ease;
+}
+
+.accordians button:active {
+    transform: scale(0.95);
+    background-color: #3e8e41;
+  }
+
+.text{
+    width: 500px;
+}
+
+.item{
+    background-color: #c2850b;
+    margin-bottom: 10px;
+    padding: 10px 20px;
+}
+
+.title{
+    color: azure;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.content{
+    color: azure;
+    height: auto;
+    font: bold;
+}
+
+.item span{
+    color: rgb(8, 8, 8);
+    font-size: 34px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
